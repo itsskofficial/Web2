@@ -2,7 +2,7 @@ const links = [
     { name: 'Find jobs', href: '#' },
     { name: 'Seek an internship', href: '#' },
     { name: 'Get paid', href: '#' },
-    { name: 'Meet our leadership', href: '#' },
+    { name: 'Add ', href: '#' },
   ]
   const stats = [
     { name: 'Offices worldwide', value: '12' },
