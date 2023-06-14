@@ -7,7 +7,7 @@ const links = [
   const stats = [
     { name: '', value: '12' },
     { name: 'Candidates placed', value: '300+' },
-    { name: '', value: '40' },
+    { name: 'Internships ', value: '40' },
     { name: 'Paid time off', value: 'Unlimited' },
   ]
   
