@@ -8,7 +8,7 @@ const links = [
     { name: 'Total candidates placedJ', value: '60+' },
     { name: 'obs in MNCs', value: '10+' },
     { name: 'Internships received', value: '40+' },
-    { name: '', value: '' },
+    { name: '', value: '90' },
   ]
   
   export default function Jobs() {
