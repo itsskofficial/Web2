@@ -125,7 +125,7 @@ export default function Example() {
               The only site you need for placements
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Your go to site for 
+              Your go to site for everything related to placements including blog, 
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
