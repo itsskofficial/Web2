@@ -8,7 +8,7 @@ const posts = [
       date: 'Mar 16, 2020',
       datetime: '2020-03-16',
       category: { title: 'Marketing', href: '#' },
-      subcategory: {title: 'Instagram', href=},
+      subcategory: {title: 'Instagram', href: '#'},
       author: {
         name: 'Michael Foster',
         role: 'Co-Founder / CTO',
@@ -43,7 +43,7 @@ const posts = [
                     {post.category.title}
                   </a>
                   <a
-                    href={post.category.href}
+                    href={post.subcategory.href}
                     className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
                   >
                     {post.subcategory.title}
