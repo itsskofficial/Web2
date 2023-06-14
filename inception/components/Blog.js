@@ -8,7 +8,7 @@ const posts = [
       date: 'Mar 16, 2020',
       datetime: '2020-03-16',
       category: { title: 'Marketing', href: '#' },
-        subcategory: { title: 'Instagram', href: '#' },
+      subcategory: { title: 'Instagram', href: '#' },
       imageUrl:'https://images.pexels.com/photos/3059654/pexels-photo-3059654.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       author: {
         name: 'Michael Foster',
