@@ -1,6 +1,6 @@
 const links = [
     { name: 'Find jobs', href: '#' },
-    { name: 'Internship program', href: '#' },
+    { name: 'Seek an internship', href: '#' },
     { name: 'Our values', href: '#' },
     { name: 'Meet our leadership', href: '#' },
   ]
