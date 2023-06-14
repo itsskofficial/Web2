@@ -8,7 +8,7 @@ const posts = [
       date: 'Mar 16, 2020',
       datetime: '2020-03-16',
       category: { title: 'Marketing', href: '#' },
-      subcategory: {title: 'Instagram'},
+      subcategory: {title: 'Instagram', href=},
       author: {
         name: 'Michael Foster',
         role: 'Co-Founder / CTO',
