@@ -30,7 +30,7 @@ const posts = [
               Browse the latest collection of articles.
             </p>
           </div>
-              <div>
+          <div>
             {/* Mobile filter dialog */}
             <Transition.Root show={mobileFiltersOpen} as={Fragment}>
               <Dialog as="div" className="relative z-40 lg:hidden" onClose={setMobileFiltersOpen}>
