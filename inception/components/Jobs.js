@@ -1,7 +1,7 @@
 const links = [
     { name: 'Find jobs', href: '#' },
     { name: 'Seek an internship', href: '#' },
-    { name: 'Our values', href: '#' },
+    { name: 'Get paid', href: '#' },
     { name: 'Meet our leadership', href: '#' },
   ]
   const stats = [
