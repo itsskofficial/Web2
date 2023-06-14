@@ -21,9 +21,8 @@ export default function Example() {
               <span className="sr-only">OST Placements</span>
               <img
                 className="h-8 w-auto"
-                src="https://img.icons8.com/ios-filled/50/infinity.png""
-                              alt="OST Logo"
-                              <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/infinity.png" alt="infinity"/>
+                src="https://img.icons8.com/ios-filled/50/infinity.png"
+                alt="OST Logo"
               />
             </a>
           </div>
