@@ -11,7 +11,7 @@ const links = [
     { name: 'Paid time off', value: 'Unlimited' },
   ]
   
-  export default function Example() {
+  export default function Jobs() {
     return (
       <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
         <img
