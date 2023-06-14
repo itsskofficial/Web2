@@ -5,8 +5,8 @@ const links = [
     { name: 'Add experience to your resume', href: '#' },
   ]
   const stats = [
-    { name: 'Jobs in MNCs', value: '60+' },
-    { name: 'Total candidates placed', value: '60+' },
+    { name: 'Total candidates placedJobs in MNCs', value: '60+' },
+    { name: '', value: '60+' },
     { name: 'Internships received', value: '40' },
     { name: '', value: 'Unlimited' },
   ]
