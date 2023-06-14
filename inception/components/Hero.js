@@ -21,7 +21,7 @@ export default function Example() {
               <span className="sr-only">OST Placements</span>
               <img
                 className="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                src="https://img.icons8.com/ios-filled/50/infinity.png""
                               alt="OST Logo"
                               <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/infinity.png" alt="infinity"/>
               />
