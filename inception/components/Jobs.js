@@ -6,8 +6,8 @@ const links = [
   ]
   const stats = [
     { name: '', value: '12' },
-    { name: 'Candidates placed', value: '300+' },
-    { name: 'Internships ', value: '40' },
+    { name: 'Candidates placed', value: '50+' },
+    { name: 'Internships received', value: '40' },
     { name: '', value: 'Unlimited' },
   ]
   
