@@ -4,6 +4,7 @@ import Hero from '@/components/Hero'
 import Blog from '@/components/Blog'
 import Jobs from '@/components/Jobs'
 import Newsletter from '@/components/Newsletter'
+import Features from '@/components/Features'
 
 
 export default function Home() {
@@ -20,7 +21,7 @@ export default function Home() {
         <Hero />
         <Blog />
         <Jobs />
-        <Feature />
+        <Features />
         <Newsletter />
       </main>
     </>
