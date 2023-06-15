@@ -219,7 +219,7 @@ export default function Blog() {
                             <a
                               href={option.href}
                               className={classNames(
-                                option.current ? 'font-medium text-white-900' : 'text-white-500',
+                                option.current ? 'font-medium text-dark-900' : 'text-dark-500',
                                 active ? 'bg-white-100' : '',
                                 'block px-4 py-2 text-sm'
                               )}
