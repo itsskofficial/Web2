@@ -11,7 +11,7 @@ const features = [
     name: 'Your custom news feed',
     description:
       'Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.',
-    icon: News,
+    icon: NewspaperIcon,
   },
   {
     name: '24/7 support',
