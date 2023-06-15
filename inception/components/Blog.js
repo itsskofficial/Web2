@@ -89,9 +89,9 @@ const filters = [
     id: 'subcategory',
     name: 'SubCategory',
     options: [
-      { value: 'cpp', label: '2L', checked: false },
-      { value: 'swift', label: '6L', checked: false },
-      { value: 'react', label: '12L', checked: false },
+      { value: 'cpp', label: 'C++', checked: false },
+      { value: 'swift', label: 'Swift', checked: false },
+      { value: 'react', label: 'React', checked: false },
       { value: 'tailwind', label: 'Tailwind', checked: false },
       { value: 'ethereum', label: 'Etheruem', checked: false },
     ],
