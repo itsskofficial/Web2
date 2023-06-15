@@ -122,7 +122,7 @@ export default function Blog() {
               <div className="fixed inset-0 bg-dark bg-opacity-25" />
             </Transition.Child>
 
-            <div className="fixed inset-0 z-40 flex">
+            <div className="fixed inset-0 z-99 flex">
               <Transition.Child
                 as={Fragment}
                 enter="transition ease-in-out duration-300 transform"
