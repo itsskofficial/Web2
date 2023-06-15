@@ -21,7 +21,7 @@ export default function Hero() {
               <span className="sr-only">OST Placements</span>
               <img
                 className="h-8 w-auto"
-                src="https://img.icons8.com/ios-filled/50/infinity.png"
+                src="https://tailwindui.com/img/logos/mark.svg?color=white&shade=600"
                 alt="OST Logo"
               />
             </a>
