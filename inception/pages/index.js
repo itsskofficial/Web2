@@ -20,6 +20,7 @@ export default function Home() {
         <Hero />
         <Blog />
         <Jobs />
+        <Featur
         <Newsletter />
       </main>
     </>
