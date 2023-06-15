@@ -1,4 +1,4 @@
-import { ArrowPathIcon, CloudArrowUpIcon, FingerPrintIcon, LockClosedIcon, NewspaperIcon, CodeBracketIcon } from '@heroicons/react/24/outline'
+import { ArrowPathIcon, CloudArrowUpIcon, NewspaperIcon, CodeBracketIcon } from '@heroicons/react/24/outline'
 
 const features = [
   {
@@ -11,7 +11,7 @@ const features = [
     name: 'Your custom news feed',
     description:
       'Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.',
-    icon: LockClosedIcon,
+    icon: News,
   },
   {
     name: '24/7 support',
