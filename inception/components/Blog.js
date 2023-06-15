@@ -312,7 +312,7 @@ export default function Blog() {
 
               {/* Product grid */}
                 <div className="lg:col-span-3">{/* Your content */}
-                  
+                  <h1>Hello</h1>
                 </div>
             </div>
           </section>
