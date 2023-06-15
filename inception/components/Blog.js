@@ -88,7 +88,7 @@ const filters = [
     ],
   },
   {
-    id: 'size',
+    id: 'SubCategory',
     name: 'Size',
     options: [
       { value: '2l', label: '2L', checked: false },
