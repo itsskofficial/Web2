@@ -84,7 +84,7 @@ function classNames(...classes) {
 export default function Blog() {
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false)
     return (
-      <div className="bg-white w-full">
+      <div className="bg-dark w-full">
       <div>
         {/* Mobile filter dialog */}
         <Transition.Root show={mobileFiltersOpen} as={Fragment}>
