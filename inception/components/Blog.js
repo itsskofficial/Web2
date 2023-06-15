@@ -319,7 +319,7 @@ export default function Blog() {
                 <div className="lg:col-span-3 z-0">{/* Your content */}
                 <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 pt-10  lg:mx-0 lg:max-w-none lg:grid-cols-3">
           {posts.map((post) => (
-            <article key={post.id} className="flex max-w-xl flex-col items-start justify-between sm:pt-10">
+            <article key={post.id} className="flex max-w-xl flex-col items-start justify-between sm:pt-60">
               <div className="flex items-center gap-x-4 text-xs">
                 <time dateTime={post.datetime} className="text-white-500">
                   {post.date}
