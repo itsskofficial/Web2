@@ -92,9 +92,8 @@ const filters = [
       { value: 'cpp', label: '2L', checked: false },
       { value: 'swift', label: '6L', checked: false },
       { value: 'react', label: '12L', checked: false },
-      { value: '', label: '18L', checked: false },
-      { value: '20l', label: '20L', checked: false },
-      { value: '40l', label: '40L', checked: true },
+      { value: 'tailwind', label: '18L', checked: false },
+      { value: 'ethereum', label: '20L', checked: false },
     ],
   },
 ]
