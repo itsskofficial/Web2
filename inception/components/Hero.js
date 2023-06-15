@@ -63,7 +63,7 @@ export default function Hero() {
               </a>
               <button
                 type="button"
-                className="-m-2.5 rounded-md p-2.5 text-gray-700"
+                className="-m-2.5 rounded-md p-2.5 text-white-700"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 <span className="sr-only">Close menu</span>
@@ -71,7 +71,7 @@ export default function Hero() {
               </button>
             </div>
             <div className="mt-6 flow-root">
-              <div className="-my-6 divide-y divide-gray-500/10">
+              <div className="-my-6 divide-y divide-white-500/10">
                 <div className="space-y-2 py-6">
                   {navigation.map((item) => (
                     <a
