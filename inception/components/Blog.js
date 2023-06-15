@@ -89,7 +89,7 @@ const filters = [
     id: 'subcategory',
     name: 'SubCategory',
     options: [
-      { value: '2l', label: '2L', checked: false },
+      { value: '', label: '2L', checked: false },
       { value: '6l', label: '6L', checked: false },
       { value: '12l', label: '12L', checked: false },
       { value: '18l', label: '18L', checked: false },
