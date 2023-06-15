@@ -8,13 +8,13 @@ const features = [
     icon: CloudArrowUpIcon,
   },
   {
-    name: 'SSL certificates',
+    name: 'Your custom news feed',
     description:
       'Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.',
     icon: LockClosedIcon,
   },
   {
-    name: 'Simple queues',
+    name: '24/7 support',
     description:
       'Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.',
     icon: ArrowPathIcon,
