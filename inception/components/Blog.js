@@ -82,7 +82,7 @@ const filters = [
     options: [
       { value: 'webdevelopment', label: 'New Arrivals', checked: false },
       { value: 'appdevelopment', label: 'Sale', checked: false },
-      { value: '', label: 'Travel', checked: true },
+      { value: 'blockchain', label: 'Blockchain', checked: true },
       { value: 'organization', label: 'Organization', checked: false },
       { value: 'accessories', label: 'Accessories', checked: false },
     ],
