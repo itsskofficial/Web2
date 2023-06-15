@@ -84,7 +84,7 @@ function classNames(...classes) {
 export default function Blog() {
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false)
     return (
-      <div className="bg-white py-24 sm:py-32">
+      <div className="bg-white py-24 sm:py-32 w">
         <div className="mx-auto max-w-7xl px-6 lg:px-8 flex">
           {/* <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">From the blog</h2>
