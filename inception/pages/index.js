@@ -19,6 +19,7 @@ export default function Home() {
         <Hero />
         <Blog />
         <Jobs />
+        <Newsletter
       </main>
     </>
   )
