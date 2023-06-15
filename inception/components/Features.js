@@ -20,7 +20,7 @@ const features = [
     icon: ArrowPathIcon,
   },
   {
-    name: 'Advanced security',
+    name: '',
     description:
       'Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.',
     icon: FingerPrintIcon,
