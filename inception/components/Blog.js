@@ -80,7 +80,7 @@ const filters = [
     id: 'category',
     name: 'Category',
     options: [
-      { value: '', label: 'New Arrivals', checked: false },
+      { value: 'webdevelopment', label: 'New Arrivals', checked: false },
       { value: 'sale', label: 'Sale', checked: false },
       { value: 'travel', label: 'Travel', checked: true },
       { value: 'organization', label: 'Organization', checked: false },
