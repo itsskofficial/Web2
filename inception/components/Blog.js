@@ -80,8 +80,8 @@ const filters = [
     id: 'category',
     name: 'Category',
     options: [
-      { value: 'webdevelopment', label: 'New Arrivals', checked: false },
-      { value: 'appdevelopment', label: 'Web Development', checked: false },
+      { value: 'webdevelopment', label: 'Web Development', checked: false },
+      { value: 'appdevelopment', label: 'App Development', checked: false },
       { value: 'blockchain', label: 'Blockchain', checked: true },
       { value: 'organization', label: 'Organization', checked: false },
       { value: 'accessories', label: 'Accessories', checked: false },
