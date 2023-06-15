@@ -3,6 +3,7 @@ import styles from '@/styles/Home.module.css'
 import Hero from '@/components/Hero'
 import Blog from '@/components/Blog'
 import Jobs from '@/components/Jobs'
+import Newsletter from '@/components/Newsletter'
 
 
 export default function Home() {
@@ -19,7 +20,7 @@ export default function Home() {
         <Hero />
         <Blog />
         <Jobs />
-        <Newsletter
+        <Newsletter />
       </main>
     </>
   )
