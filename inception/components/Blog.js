@@ -220,7 +220,7 @@ export default function Blog() {
                               href={option.href}
                               className={classNames(
                                 option.current ? 'font-medium text-dark-900' : 'text-dark-500',
-                                active ? 'bg-white-100' : '',
+                                active ? 'bg-dark-100' : '',
                                 'block px-4 py-2 text-sm'
                               )}
                             >
