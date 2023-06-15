@@ -317,7 +317,7 @@ export default function Blog() {
 
               {/* Product grid */}
                 <div className="lg:col-span-3 z-0">{/* Your content */}
-                <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8  pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+                <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y pt-10  sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
           {posts.map((post) => (
             <article key={post.id} className="flex max-w-xl flex-col items-start justify-between">
               <div className="flex items-center gap-x-4 text-xs ">
