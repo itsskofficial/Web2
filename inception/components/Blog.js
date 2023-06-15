@@ -146,7 +146,7 @@ export default function Blog() {
                   </div>
 
                   {/* Filters */}
-                  <form className="mt-4 border-t border-white-200">
+                  <form className="mt-4 border-t border-gray-200">
                     <h3 className="sr-only">Categories</h3>
 
                     {filters.map((section) => (
