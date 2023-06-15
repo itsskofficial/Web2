@@ -179,7 +179,7 @@ export default function Blog() {
                                     />
                                     <label
                                       htmlFor={`filter-mobile-${section.id}-${optionIdx}`}
-                                      className="ml-3 min-w-0 flex-1 text-white-500"
+                                      className="ml-3 min-w-0 flex-1 text-gray-500"
                                     >
                                       {option.label}
                                     </label>
