@@ -110,7 +110,7 @@ export default function Hero() {
             }}
           />
         </div>
-        <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+        <div className="mx-auto max-w-2xl py-32 sm:py-24 lg:py-56">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-white-600 ring-1 ring-white-900/10 hover:ring-white-900/20">
               Introducing us in a brand new way.{' '}
