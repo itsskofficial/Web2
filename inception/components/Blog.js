@@ -93,7 +93,7 @@ const filters = [
       { value: 'swift', label: '6L', checked: false },
       { value: 'react', label: '12L', checked: false },
       { value: 'tailwind', label: '18L', checked: false },
-      { value: 'ethereum', label: '20L', checked: false },
+      { value: 'ethereum', label: 'Etheruem', checked: false },
     ],
   },
 ]
