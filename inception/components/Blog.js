@@ -154,7 +154,7 @@ export default function Blog() {
                         {({ open }) => (
                           <>
                             <h3 className="-mx-2 -my-3 flow-root">
-                              <Disclosure.Button className="flex w-full items-center justify-between bg-white px-2 py-3 text-gray-4900 hover:text-gray-500">
+                              <Disclosure.Button className="flex w-full items-center justify-between bg-white px-2 py-3 text-gray-900 hover:text-gray-500">
                                 <span className="font-medium text-white-900">{section.name}</span>
                                 <span className="ml-6 flex items-center">
                                   {open ? (
