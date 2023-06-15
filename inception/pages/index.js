@@ -1,11 +1,9 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import Hero from '@/components/Hero'
 import Blog from '@/components/Blog'
 import Jobs from '@/components/Jobs'
 
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
