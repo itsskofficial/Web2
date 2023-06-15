@@ -116,7 +116,7 @@ export default function Blog() {
                     <h2 className="text-lg font-medium text-white-900">Filters</h2>
                     <button
                       type="button"
-                      className="-mr-2 flex h-10 w-10 items-center justify-center rounded-md bg-white p-2 text-gray-400"
+                      className="-mr-2 flex h-10 w-10 items-center justify-center rounded-md bg-dark p-2 text-gray-400"
                       onClick={() => setMobileFiltersOpen(false)}
                     >
                       <span className="sr-only">Close menu</span>
