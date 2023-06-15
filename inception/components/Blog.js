@@ -81,7 +81,8 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
   
-  export default function Blog() {
+export default function Blog() {
+  const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false)
     return (
       <div className="bg-white py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8 flex">
