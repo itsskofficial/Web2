@@ -6,7 +6,7 @@ const navigation = [
   { name: 'Blog', href: '#blog' },
   { name: 'News', href: '#news' },
   { name: 'Jobs', href: '#jobs' },
-  { name: 'About', href: '#about' },
+  { name: 'Updates', href: '#about' },
 ]
 
 export default function Hero() {
