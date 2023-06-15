@@ -134,7 +134,7 @@ export default function Hero() {
               >
                 Check it out
               </a>
-              <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+              <a href="#" className="text-sm font-semibold leading-6 text-white-900">
                 Learn more <span aria-hidden="true">→</span>
               </a>
             </div>
