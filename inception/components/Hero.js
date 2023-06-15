@@ -57,7 +57,7 @@ export default function Hero() {
                 <span className="sr-only">OST Placements</span>
                 <img
                   className="h-8 w-auto"
-                  src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                  src="https://tailwindui.com/img/logos/mark.svg?color=white&shade=600"
                   alt=""
                 />
               </a>
