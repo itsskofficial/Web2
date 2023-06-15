@@ -124,7 +124,7 @@ export default function Hero() {
             <h1 className="text-4xl font-bold tracking-tight text-white-900 sm:text-6xl">
               The only site you need for placements
             </h1>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
+            <p className="mt-6 text-lg leading-8 text-white-600">
               Your go to site for everything related to placements including blog, news, latest updates and jobs
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
