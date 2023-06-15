@@ -81,7 +81,7 @@ const filters = [
     name: 'Category',
     options: [
       { value: 'webdevelopment', label: 'New Arrivals', checked: false },
-      { value: 'appdevelopment', label: 'Sale', checked: false },
+      { value: 'appdevelopment', label: 'Web Development', checked: false },
       { value: 'blockchain', label: 'Blockchain', checked: true },
       { value: 'organization', label: 'Organization', checked: false },
       { value: 'accessories', label: 'Accessories', checked: false },
