@@ -311,7 +311,9 @@ export default function Blog() {
               </form>
 
               {/* Product grid */}
-              <div className="lg:col-span-3">{/* Your content */}</div>
+                <div className="lg:col-span-3">{/* Your content */}
+                  
+                </div>
             </div>
           </section>
         </main>
