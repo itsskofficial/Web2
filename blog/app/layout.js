@@ -14,9 +14,8 @@ export default function RootLayout({ children }) {
       <body className = {inter.className}>
         <div className="container">
           <div className="wrapper">
-          {children}
+            {children}
           </div>
-          
         </div>
       </body>
     </html>
