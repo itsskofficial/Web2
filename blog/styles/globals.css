@@ -42,3 +42,5 @@ a {
         max-width: 1366px;
     }
 }
+
+@media screen and (max-widthL 12)
