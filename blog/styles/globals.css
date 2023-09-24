@@ -22,8 +22,12 @@ a {
     text-decoration: none;
 }
 
-container {
+.container {
     min-height: 100vh;
     background-color: var(--bg);
     color: var(--textColor);
+}
+
+.wrapper {
+    max-width: ;
 }
