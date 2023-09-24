@@ -56,3 +56,11 @@ a {
         padding-right: 40px;
     }
 }
+
+@media screen and (max-width: 1024px) {
+    .wrapper {
+        max-width: 768px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
