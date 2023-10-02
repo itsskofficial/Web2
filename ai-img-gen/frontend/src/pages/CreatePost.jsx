@@ -19,37 +19,37 @@ const CreatePost = () => {
       try {
         setGeneratingImg(true);
         const response = await fetch(
-          "https://ai-img-gen-backend.onrender.com/api/v1/dalle",
+          "https://ai-img-gen-arx2.onrender.com/api/v1/dalle",
           {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
             },
             body: JSON.stringify({
-              prompt: form.prompt
+              prompt: form.prompt,
             }),
           }
-        )
+        );
 
-        const data = await response.json()
-        setForm({ ...form, photo: `data:image/jpeg;base64,${data.photo}` })
+        const data = await response.json();
+        setForm({ ...form, photo: `data:image/jpeg;base64,${data.photo}` });
       } catch (error) {
-        alert(error)
+        alert(error);
       } finally {
         setGeneratingImg(false);
       }
     } else {
       alert("Please enter a prompt");
     }
-  }
+  };
 
   const handleSubmit = async (e) => {
-    e.preventDefault()
+    e.preventDefault();
     if (form.prompt && form.photo) {
       setLoading(true);
       try {
         const response = await fetch(
-          "https://ai-img-gen-backend.onrender.com/api/v1/post",
+          "https://ai-img-gen-arx2.onrender.com/api/v1/post",
           {
             method: "POST",
             headers: {
@@ -59,32 +59,32 @@ const CreatePost = () => {
           }
         );
         await response.json();
-        alert('Success')
+        alert("Success");
         navigate("/");
       } catch (error) {
         alert(error);
       } finally {
-        setLoading(false)
+        setLoading(false);
       }
     } else {
       alert("Please enter a prompt ad generate an image");
     }
-  }
+  };
 
   const handleChange = (e) => {
     setForm({
       ...form,
       [e.target.name]: e.target.value,
-    })
-  }
+    });
+  };
 
   const handleSurpriseMe = () => {
-    const randomPrompt = getRandomPrompt(form.prompt)
+    const randomPrompt = getRandomPrompt(form.prompt);
     setForm({
       ...form,
-      prompt: randomPrompt
-    })
-  }
+      prompt: randomPrompt,
+    });
+  };
 
   return (
     <section className="max-w-7xl mx-auto">

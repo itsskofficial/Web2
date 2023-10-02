@@ -24,7 +24,7 @@ const Home = () => {
       setLoading(true);
       try {
         const response = await fetch(
-          "https://ai-img-gen-backend.onrender.com/api/v1/post",
+          "https://ai-img-gen-arx2.onrender.com/api/v1/post",
           {
             method: "GET",
             headers: {
@@ -47,8 +47,8 @@ const Home = () => {
   }, []);
 
   const handleSearchChange = (e) => {
-    clearTimeout(searchTimeout)
-    setSearchText(e.target.value)
+    clearTimeout(searchTimeout);
+    setSearchText(e.target.value);
 
     setSearchTimeout(
       setTimeout(() => {
@@ -59,8 +59,8 @@ const Home = () => {
         );
         setSearchedResults(searchResults);
       }, 500)
-    )
-  }
+    );
+  };
 
   return (
     <section className="max-w-7xl mx-auto">
@@ -97,11 +97,14 @@ const Home = () => {
               </h2>
             )}
             <div className="grid lg:grid-cols-4 sm:grid-cols-3 xs-grid-cols-2 grid-cols-1 gap-3">
-              {searchText ? 
-                <RenderCards data={searchedResults}title="No search results found" />
-               : 
+              {searchText ? (
+                <RenderCards
+                  data={searchedResults}
+                  title="No search results found"
+                />
+              ) : (
                 <RenderCards data={allPosts} title="No posts found" />
-              }
+              )}
             </div>
           </Fragment>
         )}
