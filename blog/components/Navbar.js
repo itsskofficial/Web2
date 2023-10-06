@@ -1,5 +1,7 @@
 import styles from "@styles/navbar.module.css"
 import Image from "next/image"
+import ThemeToggle from "./ThemeToggle"
+import AuthLinks from "./AuthLinks"
 
 const Navbar = () => {
     return (  
@@ -10,11 +12,21 @@ const Navbar = () => {
                 <Image src="/youtube.png" alt="youtube" width={24} height={24} />
             </div>
             <div className={styles.logo}>
-
+                SK's Blog
             </div>
+            <ThemeToggle />
             <div className={styles.links}>
-
+                <Link href="/">
+                    Home
+                </Link>
+                <Link href="/about">
+                    About
+                </Link>
+                <Link href="/about">
+                    Contact
+                </Link>
             </div>
+            <AuthLinks />
         </div>
     )
 }
