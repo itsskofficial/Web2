@@ -126,4 +126,5 @@ Distributed under the MIT License. See [LICENSE](https://github.com/itsskofficia
 
 ## Acknowledgements
 
+* [JS Mastery](https://www.jsmastery.pro/)
 * [OpenAI](https://ppenai.com)
