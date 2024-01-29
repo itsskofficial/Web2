@@ -1,5 +1,7 @@
 <br/>
 <p align="center">
+    <a href="https://github.com/itsskofficial/Web2">
+    <img src="public/assets/images/logo.svg" alt="Logo" width="80" height="80">
 
   <h3 align="center">PromptShare</h3>
 
@@ -32,7 +34,7 @@ A prompt sharing application made with Next.js, helping users discover and share
 
 ## About The Project
 
-![Screen Shot](prompt-share.png)
+![Screen Shot](promptopia.png)
 
 PromptShare is an application designed to assist users in discovering and sharing effective AI prompts. Built with Next.js, the project provides a platform for the AI community to exchange, explore, and contribute to a collection of valuable prompts.
 
