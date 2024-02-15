@@ -1,4 +1,4 @@
-Web Development Learning Roadmap
+Web2 Roadmap
 --------------------------------
 
 ### 1\. **Prerequisites:**
