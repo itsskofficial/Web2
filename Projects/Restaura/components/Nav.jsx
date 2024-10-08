@@ -3,22 +3,22 @@ import { Link } from 'react-scroll';
 const links = [
    {
       path: 'home',
-      name: 'home',
+      name: 'Home',
       offset: -50,
    },
    {
       path: 'menu',
-      name: 'menu',
+      name: 'Menu',
       offset: -50,
    },
    {
       path: 'about',
-      name: 'about',
+      name: 'About',
       offset: -150,
    },
    {
       path: 'contact',
-      name: 'contact',
+      name: 'Contact',
       offset: 0,
    },
 ];
