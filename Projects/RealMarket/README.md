@@ -5,8 +5,6 @@
   <p align="center">
     A full-stack application to dynamically generate a comprehensive "Population Context" market card for any U.S. address.
     <br/>
-    <br/>
-    ·
     <a href="https://github.com/itsskofficial/Web2/issues">Report Bug</a>
     ·
     <a href="https://github.com/itsskofficial/Web2/issues">Request Feature</a>
