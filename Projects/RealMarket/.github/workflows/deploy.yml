@@ -1,0 +1,51 @@
+name: Deploy to VM
+
+on:
+  push:
+    branches:
+      - master # This workflow runs on pushes to the master branch
+    paths:
+      # Trigger the workflow if code in the backend or frontend changes
+      - "src/backend/**"
+      - "src/frontend/**"
+      # Also trigger if Docker configuration changes
+      - "docker-compose.yaml"
+      # Or if the workflow file itself changes
+      - ".github/workflows/deploy.yml"
+
+jobs:
+  deploy:
+    name: Deploy to VM
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Deploy over SSH
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.VM_HOST }}
+          username: ${{ secrets.VM_USER }}
+          key: ${{ secrets.VM_SSH_PRIVATE_KEY }}
+          script: |
+            # Exit immediately if a command exits with a non-zero status
+            set -e
+
+            # !!! IMPORTANT !!!
+            # Change this path to the directory where your project is located on the VM
+            cd ~/capmatch
+
+            # Pull the latest changes from the master branch
+            echo "Pulling latest code from GitHub..."
+            git checkout master
+            git pull origin master
+
+            # Rebuild and restart the services using Docker Compose
+            # The docker-compose.yaml is at the root of the project, so we run the command here
+            echo "Building and deploying services..."
+            docker compose down
+            docker compose up --build -d
+
+            # Clean up old, unused Docker images to save space
+            echo "Cleaning up old Docker images..."
+            docker image prune -f
+
+            echo "Deployment successful!"

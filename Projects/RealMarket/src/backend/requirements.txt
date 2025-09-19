@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+pydantic-settings
+loguru
+httpx
+pandas
+sqlalchemy
+psycopg2-binary
+alembic
+asyncpg
+geopy
+tenacity # For exponential backoff retries
+firebase-admin
+pytest # For testing
+pytest-asyncio # For async testing

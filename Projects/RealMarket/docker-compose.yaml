@@ -1,0 +1,44 @@
+services:
+    # 1. FastAPI Backend Service
+    backend:
+        build:
+            context: ./src/backend  # CORRECTED PATH
+        restart: always
+        env_file:
+            - ./src/backend/.env   # CORRECTED PATH
+        # VOLUMES REMOVED FOR PRODUCTION
+        depends_on:
+            - db
+        networks:
+            - app-network
+
+    # 2. Next.js Frontend Service
+    frontend:
+        build:
+            context: ./src/frontend # CORRECTED PATH
+        restart: always
+        env_file:
+            - ./src/frontend/.env  # CORRECTED PATH
+        # VOLUMES REMOVED FOR PRODUCTION
+        networks:
+            - app-network
+        ports:
+            - "3000:3000"
+
+    # 3. PostgreSQL Database Service
+    db:
+        image: postgres:15-alpine
+        restart: always
+        volumes:
+            - postgres_data:/var/lib/postgresql/data/
+        env_file:
+            - ./src/backend/.env
+        networks:
+            - app-network
+
+volumes:
+    postgres_data:
+
+networks:
+    app-network:
+        driver: bridge
